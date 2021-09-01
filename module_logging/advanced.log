@@ -1,0 +1,23 @@
+2021-08-30 10:19:45,510:DEBUG:__main__:Add: 20 + 10 = 30
+2021-08-30 10:19:45,511:DEBUG:__main__:Sub: 20 - 10 = 10
+2021-08-30 10:19:45,511:DEBUG:__main__:Mul: 20 * 10 = 200
+2021-08-30 10:19:45,511:DEBUG:__main__:Div: 20 / 10 = 2.0
+2021-08-30 10:21:11,939:DEBUG:__main__:Add: 20 + 0 = 20
+2021-08-30 10:21:11,939:DEBUG:__main__:Sub: 20 - 0 = 20
+2021-08-30 10:21:11,940:DEBUG:__main__:Mul: 20 * 0 = 0
+2021-08-30 10:21:11,940:ERROR:__main__:tried to divide by zero
+Traceback (most recent call last):
+  File "c:\Users\Schehat\python_projects\code_snippets\module_logging\advanced.py", line 39, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+2021-08-30 10:21:11,940:DEBUG:__main__:Div: 20 / 0 = None
+2021-08-30 10:21:33,432:ERROR:__main__:tried to divide by zero
+Traceback (most recent call last):
+  File "c:\Users\Schehat\python_projects\code_snippets\module_logging\advanced.py", line 39, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+2021-08-30 10:28:41,697:ERROR:__main__:tried to divide by zero
+Traceback (most recent call last):
+  File "c:\Users\Schehat\python_projects\code_snippets\module_logging\advanced.py", line 44, in divide
+    result = x / y
+ZeroDivisionError: division by zero
