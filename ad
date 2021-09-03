@@ -1,24 +1,24 @@
 [33mcommit 8c803be930f9d0f516da70860c097d6b2f7e940a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
 Author: Schehat Abdel Kader <schehat2000@live.de>
-Date:   Wed Sep 1 21:23:32 2021 +0200
+Date: Wed Sep 1 21:23:32 2021 +0200
 
     updated .gitignore to hide .pyc files
 
 [33mcommit b876ce4a870aab4a5fc28958e0bb59ce5e8b42a4[m
 Merge: ab5c970 9cf113f
 Author: Schehat Abdel Kader <schehat2000@live.de>
-Date:   Wed Sep 1 20:28:44 2021 +0200
+Date: Wed Sep 1 20:28:44 2021 +0200
 
     Merge branch 'main' of https://github.com/Schehat/code_snippets
 
 [33mcommit ab5c970682abd077086ce63cd4325afa771ecc31[m
 Author: Schehat Abdel Kader <schehat2000@live.de>
-Date:   Wed Sep 1 20:27:27 2021 +0200
+Date: Wed Sep 1 20:27:27 2021 +0200
 
     pushing existing local files
 
 [33mcommit 9cf113fec931c244e903eff601b2a14917844722[m
 Author: Schehat <50794782+Schehat@users.noreply.github.com>
-Date:   Wed Sep 1 20:21:13 2021 +0200
+Date: Wed Sep 1 20:21:13 2021 +0200
 
     Initial commit
