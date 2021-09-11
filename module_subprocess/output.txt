@@ -1,0 +1,5 @@
+total 4
+drwxrwxrwx 1 schehat schehat  512 Sep 10 18:38 .
+drwxrwxrwx 1 schehat schehat  512 Sep 10 18:14 ..
+-rwxrwxrwx 1 schehat schehat 1137 Sep 10 18:38 module_subprocess.py
+-rwxrwxrwx 1 schehat schehat    0 Sep 10 18:38 output.txt

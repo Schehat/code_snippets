@@ -4,6 +4,12 @@ class Employee:
         self.last = last
 
     # this allows to define a function but treat it like an attribute
+    # only purpose is to not rewrite code if email would be an attribute but
+    # if emp1.first = "bla" then email would not automatically adjust the value
+    # and defining a function without the property decorator would mean not rewrite
+    # all access of this variable and adding the paranthesis
+    # Note: just define the function in the first place. OOP programming in python is
+    # compared to java a mess
     @property
     def email(self):
         return f"{self.first}.{self.last}@outlook.de"
@@ -12,6 +18,7 @@ class Employee:
     def fullname(self):
         return f"{self.first} {self.last}"
 
+    # add decorators on top of the property decorator
     @fullname.setter
     def fullname(self, name):
         self.first, self.last = name.split(" ")
@@ -26,13 +33,12 @@ class Employee:
 emp_1 = Employee("John", "Smith")
 
 # emp_1.first = "Jim"
-emp_1.fullname = "Corey Schafer"  # calls setter decorator
+# emp_1.fullname = "Corey Schafer"  # calls setter decorator
 
 print(emp_1.first)
-print(emp_1.email)  # email wont change automatically the first name to Jim
+print(emp_1.email)
 
-# after emp1_1.fullname method cant be used like a function
-# & after property decorator cant handle like a function
+# using fullname as a function not possible after the property decorator was added
 # print(emp_1.fullname())
 print(emp_1.fullname)
 

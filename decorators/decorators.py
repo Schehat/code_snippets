@@ -8,7 +8,7 @@ def outer_function(msg):
 
 # closure is an inner function that remembers and has access
 # to variables in the local scope in which it was created even
-#  after the outer function has finished executing
+# after the outer function has finished executing
 my_hi = outer_function("hi")
 my_bye = outer_function("bye")
 my_hi()
@@ -16,7 +16,7 @@ my_hi()
 my_bye()
 my_bye()
 
-# decorator simalair to closure, but instead of accessing a variable,
+# decorator similar  to closure, but instead of accessing a variable,
 # it will execute a function which was given as an argument
 # pro: add functionality to the original function without editing it, instead
 # add additional functionality inside the wrapper function

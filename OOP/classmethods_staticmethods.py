@@ -25,7 +25,7 @@ class Employee:
     def set_raise_amount(cls, amount):
         cls.raise_amount = amount
 
-    # convention method name stars with from
+    # convention method name starts with from
     @classmethod
     def from_string(cls, emp_str):
         first, last, pay = emp_str.split("-")
