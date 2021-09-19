@@ -13,5 +13,9 @@ numbers = [1, 2, 3, 4, 2, 3, 4, 1, 5]
 
 counter = Counter(numbers)
 print(counter)
-counter = dict(counter)
+print(dict(counter))
+
+# updating counter with another list
+extra_numbers = [1, 2, 1, 1, 4, 5, 3, 1]
+counter.update(extra_numbers)
 print(counter)

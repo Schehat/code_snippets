@@ -19,6 +19,11 @@ for key in numbers:
 # output also different from regular dict
 print(counts)
 
+# if key does not exist it will be created and 3 will be appended
+# if key does exist it just appends 3
 li = {"list": [1]}
-print(li.setdefault("list", []).append(3))
-print(li["list"])
+print(li.setdefault("list", []))
+print(li.setdefault("not", []))
+
+# "not" now exists in dict
+print(li)
